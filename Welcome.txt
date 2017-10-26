@@ -1,0 +1,11 @@
+Welcome to the QIB Dockerised learning environment to learn how
+to use Mothur for 16s analysis from the command-line.
+Data and tutorial notes from Schloss lab Miseq SOP and the cgiar
+Mothur tutorials.
+This environment will run on any linux machine running Docker 
+Host (or on Windows PC & Macs running Docker Toolbox (Kitematic)).
+You will need to click on home folder, enable volumes and map this 
+to a local directory on your computer.
+Then you will need to run a script ( /scripts/get_data.sh ) to copy 
+the data files etc to your home directory.
+Mark Fernandes QIB 2017
