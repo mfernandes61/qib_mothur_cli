@@ -3,7 +3,7 @@
 # and horse gut metagenome tutorial data from cgiar.org
 cd /home
 # mkdir /data /reference
-mkdir mouse/data mouse/reference horse
+mkdir mouse mouse/data mouse/reference horse
 cd /home/mouse/data
 wget https://zenodo.org/record/165147/files/input_data.zip 
 unzip *.zip
