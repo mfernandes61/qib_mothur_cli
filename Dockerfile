@@ -10,7 +10,7 @@ RUN mkdir mothur && cd mothur && wget https://github.com/mothur/mothur/releases/
 
 ADD Welcome.txt /etc/motd
 ADD get_data.sh /scripts/get_data.sh
-ADD Mothur*.pdf /mothur_tutorial.pdf
+ADD MiSeq*.pdf /mothur_tutorial.pdf
 RUN chmod +x /scripts/get_data.sh 
 
 #RUN $SIAB_COMM
